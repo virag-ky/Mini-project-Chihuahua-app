@@ -7,5 +7,88 @@
     <title>Chihuahua App</title>
     <link href="style.css" type="text/css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <h1>Maisy the chihuahua</h1>
+    <main>
+      <section>
+        <p>
+          Maisy is an 8 month old chihuahua. She's very energetic, playful, and
+          friendly. When she gets a new toy, she's getting very possessive over
+          it. She likes to play and run a lot, but most of the day she's
+          sleeping. She's a picky eater, but she can eat a cookie any time.
+          Click here to see more
+          <a href="pictures.html" target="_blank">pictures of Maisy</a>.
+        </p>
+        <figure>
+          <img src="../../Pictures/maisy.jpg" />
+          <figcaption>Maisy sleeping in her blanket.</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Lists of Maisy</h2>
+        <h3>Things that Maisy likes:</h3>
+        <ul>
+          <li>naps</li>
+          <li>running</li>
+          <li>cookies</li>
+        </ul>
+        <h3>Things that Maisy hates:</h3>
+        <ol>
+          <li>bath</li>
+          <li>cold</li>
+          <li>nail trimming</li>
+        </ol>
+      </section>
+      <section>
+        <form>
+          <legend>Which type of food does your chihuahua prefer?</legend>
+          <input
+            type="radio"
+            id="wetfood"
+            name="food"
+            value="wetfood"
+            checked
+          />
+          <label for="wetfood">Wet food</label>
+          <input type="radio" id="dryfood" name="food" value="dryfood" />
+          <label for="dryfood">Dry food</label>
+          <legend>Describe your chihuahua's personality</legend>
+          <input
+            type="checkbox"
+            id="jealous"
+            name="personality"
+            value="jealous"
+            checked
+          />
+          <label for="jealous">Jealous</label>
+          <input
+            type="checkbox"
+            id="loving"
+            name="personality"
+            value="loving"
+          />
+          <label for="loving">Loving</label>
+          <input
+            type="checkbox"
+            id="energetic"
+            name="personality"
+            value="energetic"
+          />
+          <label for="energetic">Energetic</label>
+          <section>
+            <input
+              type="text"
+              id="name"
+              name="dogname"
+              placeholder="Enter your chihuahua's name"
+            />
+            <button type="submit">Submit</button>
+          </section>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>No copyright - Maisy the Chihuahua 2021</p>
+    </footer>
+  </body>
 </html>
