@@ -1,0 +1,42 @@
+body {
+  background-color: Peru;
+  margin: 0px;
+}
+h1 {
+  text-decoration: underline;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+#main {
+  font-weight: 400;
+  margin: 25px;
+}
+h2 {
+  margin-top: 50px;
+}
+li {
+  margin-bottom: 5px;
+}
+img {
+  width: 400px;
+  margin-right: 50px;
+}
+figure {
+  float: left;
+}
+form {
+  clear: both;
+  margin: 25px;
+}
+input {
+  margin-bottom: 25px;
+}
+legend {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+footer {
+  background-color: gainsboro;
+  text-align: center;
+  padding: 0.5px;
+}
